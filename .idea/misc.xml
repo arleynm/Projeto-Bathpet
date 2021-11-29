@@ -3,6 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/battpach_background.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/botao_customizado.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/cilinica_2_background.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/cilinica_3_background.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/empty_tall_divider.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/imagem_customizada.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/drawable/localization_background.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/access_page.xml" value="0.22" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/activity_main4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/activity_main7.xml" value="0.1" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/activity_main8.xml" value="0.1" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/home_page.xml" value="0.1" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/login_page.xml" value="0.1" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/register_address_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/register_clinic_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/layout/register_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/mipmap-anydpi-v26/cilinica_3.xml" value="0.2203125" />
+        <entry key="..\:/Projeto-Bathpet/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
         <entry key="..\:/Users/Arley Augusto/Prototipo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
         <entry key="..\:/Users/Arley Augusto/Prototipo/app/src/main/res/drawable/battpach_background.xml" value="0.2203125" />
         <entry key="..\:/Users/Arley Augusto/Prototipo/app/src/main/res/drawable/botao_costomizado.xml" value="0.2203125" />

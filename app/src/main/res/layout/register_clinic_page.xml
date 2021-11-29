@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:paddingTop="40dp"
+    android:paddingBottom="40dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/personalData"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text="Dados da Clínica"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="32dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/personalData"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:divider="@drawable/empty_tall_divider"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="Nome:"
+                android:textSize="24dp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/editTextClinicName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="Telefone:"
+                android:textSize="24dp"
+                android:textColor="@color/black"/>
+            <EditText
+                android:id="@+id/editTextClinicPhone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:divider="@drawable/empty_tall_divider"
+            android:showDividers="middle"
+            android:layout_marginTop="2dp">
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_height="wrap_content"
+                android:text="CANCELAR"
+                android:layout_weight="1"
+                android:onClick="CancelRegisterClinic"
+                android:background="@color/orange"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_marginLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="AVANÇAR"
+                android:onClick="GoToRegisterAddressOperation"
+                android:background="@color/orange"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

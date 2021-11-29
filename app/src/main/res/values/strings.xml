@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Prototipo</string>
+    <string name="app_name">My Pets</string>
+    <color name="orange">#FF5F00</color>
 </resources>
